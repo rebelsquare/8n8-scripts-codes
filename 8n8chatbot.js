@@ -1,4 +1,4 @@
-// Chat Widget Script
+// Chat Widget Script 
 (function() {
     // Create and inject styles
     const styles = `
@@ -284,7 +284,7 @@
     styleSheet.textContent = styles;
     document.head.appendChild(styleSheet);
 
-    // Default configuration
+    // Default configuration with custom appearance changes
     const defaultConfig = {
         webhook: {
             url: '',
@@ -297,7 +297,7 @@
             responseTimeText: '',
             poweredBy: {
                 text: 'Powered by Rebel Square',
-                link: 'rebelsquare.com'
+                link: 'https://rebelsquare.com'
             }
         },
         style: {
